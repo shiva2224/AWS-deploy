@@ -6,6 +6,8 @@ app.get("/", (req, res) => {
   res.send("Hello from Dockerized Node.js app!");
 });
 
+console.log("hello from build")
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
